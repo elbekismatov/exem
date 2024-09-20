@@ -65,7 +65,7 @@ header .container .nav button {
   border: none;
 }
 header .container .nav button:hover {
-  color: #808E9A;
+  color: #808e9a;
 }
 header .container .hero {
   display: -webkit-box;
@@ -85,6 +85,7 @@ header .container .hero .here-section-left {
           flex-direction: column;
   max-width: 536px;
   gap: 32px;
+  padding: 86px 0px 75px 0px;
 }
 header .container .hero .here-section-left h2 {
   font-family: var(--font1);
@@ -286,6 +287,9 @@ header .container .hero .card-img {
 }
 .footer .container section .get-an-answer-to-a-question button:hover {
   opacity: 50%;
+}
+.footer .footer-logo {
+  margin-bottom: 32px;
 }
 .footer .footer-bottom {
   display: -webkit-box;
